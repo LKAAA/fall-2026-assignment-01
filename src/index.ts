@@ -6,5 +6,5 @@
  */
 
 // Example:
-import { transcribeDNA } from './exercise02.js';
-console.log(transcribeDNA('AUTC'));
+import { calculateSubjectAverage } from './exercise07.js';
+console.log(calculateSubjectAverage('Math'));
