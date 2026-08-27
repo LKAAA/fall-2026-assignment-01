@@ -19,17 +19,13 @@ let students_matrix: student_dict;
 const rawData = fs.readFileSync("data/gradebook.json", 'utf-8');
 
   try {
-    // Parse the JSON and cast it to our double-layer dictionary type
     students_matrix = JSON.parse(rawData);
     
-    // Now TypeScript knows the exact structure!
-    console.log("Successfully parsed:", students_matrix);
-    
+    console.log("Successfully parsed");
     
 } catch (error) {
     console.error("Invalid JSON format:", error);
 }
-
 
 export function calculateSubjectAverage(subject: string): number {
   
