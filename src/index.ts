@@ -6,5 +6,6 @@
  */
 
 // Example:
-import { calculateSubjectAverage } from './exercise07.js';
-console.log(calculateSubjectAverage('Math'));
+import { isAdmin } from './exercise09.js';
+import { extractAdmins } from './exercise09.js';
+//console.log(SimpleEventEmitter('Math'));
